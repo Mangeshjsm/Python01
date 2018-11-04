@@ -11,8 +11,6 @@ Assignment
 3)spiral matrix rotation
 4)shift elements in Matrix
 
-"""
-
 
 Looping
 1)while
@@ -25,14 +23,25 @@ for i in range(0,5):
     for j in range(0,5):
         print(i,j)
 
-#for i in range(0,5):
-#for j in range(0,5)
+for i in range(0,5):
+for j in range(0,5)
     
 """
-
-    i = 0
+"""
+    i=0
     while True:
         if i<=5:
             print("*")
             break
-            i += 1
+            i +=1
+
+"""
+
+"""
+no = 1
+while no <= 5:
+    print("*")
+    no += 1
+
+"""
+
