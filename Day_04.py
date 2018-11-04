@@ -13,16 +13,26 @@ Assignment
 
 """
 
-"""
+
 Looping
 1)while
 2)for
 3)comprehension 
-"""
 
 
-"""
+
 for i in range(0,5):
     for j in range(0,5):
         print(i,j)
+
+#for i in range(0,5):
+#for j in range(0,5)
+    
 """
+
+    i = 0
+    while True:
+        if i<=5:
+            print("*")
+            break
+            i += 1
