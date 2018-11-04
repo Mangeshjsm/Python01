@@ -12,3 +12,10 @@ Assignment
 4)shift elements in Matrix
 
 """
+
+"""
+Looping
+1)while
+2)for
+3)comprehension 
+"""
