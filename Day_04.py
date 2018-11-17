@@ -74,7 +74,7 @@ for i in range(0, 5):
     print("\r")
 
 """
-
+#For Assignment no 3
 for i in range(0, 5):
     num=i%2
     for j in range(0, 5):
@@ -88,5 +88,15 @@ for i in range(0, 5):
             print("0", end=" ")
         else:
             print("1", end=" ")
+    print("")
+
+#For Assignment no 5
+
+for i in range(0, 5):
+    for j in range(0, i+1):
+        if(j%2==0):
+            print("1", end=" ")
+        else:
+            print("0", end=" ")
     print("")
 
