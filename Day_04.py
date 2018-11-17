@@ -153,11 +153,3 @@ for i in range(0, 5):
 
 #For Assignment no 8
 
-num=0
-for i in range(0, 5):
-    for j in range(0, i+1):
-        print(num%2, end=" ")
-        num +=1
-    if i%2 == 1:
-        num +=1
-    print("")
