@@ -110,6 +110,15 @@ for i in range(0, 5):
             print("0", end=" ")
     print("")
 
+#For Assignment no 4
+num=0
+for i in range(0, 5):
+    for j in range(0, i+1):
+        print(num%2, end=" ")
+        num +=1
+    if i%2 == 1:
+        num +=1
+    print("")
 
 
 for i in range(1, 6):
@@ -120,6 +129,35 @@ for i in range(1, 6):
             print("0", end=" ")
     print("")
 
-"""
+
 
 #For Assignment no 6
+
+for i in range(1, 6):
+    for j in range(1, 6):
+        print(j, end=" ")
+    print("")
+
+
+
+#For Assignment no 7
+
+num=1
+for i in range(0, 5):
+    for j in range(0, 5):
+        print('{num:02d}'.format(num=num), end=" ")
+        num +=1
+    print("")
+
+"""
+
+#For Assignment no 8
+
+num=0
+for i in range(0, 5):
+    for j in range(0, i+1):
+        print(num%2, end=" ")
+        num +=1
+    if i%2 == 1:
+        num +=1
+    print("")
