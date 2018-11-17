@@ -44,7 +44,7 @@ while no <= 5:
     no += 1
 
 """
-
+"""
 for i in range(0, 5):
     for j in range(0, 5):
         print("*", end=' ')
@@ -57,4 +57,36 @@ for i in range(0, 5):
         print("*", end=' ')
     print("\r")
 
+
+
+for i in range(5):
+    for j in range(5):
+        if (j==0):
+            print("*",end=" ")
+        else:
+            print("*",end=" ")
+     print("\n")
+
+
+for i in range(0, 5):
+    for j in range(0, 5):
+        print("1", end=' ')
+    print("\r")
+
+"""
+
+for i in range(0, 5):
+    num=i%2
+    for j in range(0, 5):
+        print(num, end=" ")
+    print("\r")
+
+
+for i in range(0, 5):
+    for j in range(0, 5):
+        if(i%2==0):
+            print("0", end=" ")
+        else:
+            print("1", end=" ")
+    print("")
 
