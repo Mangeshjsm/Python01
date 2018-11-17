@@ -158,7 +158,19 @@ for i in range(0, 5):
         num +=1
     print("")
 
-"""
+
 
 #For Assignment no 8
 
+for i in range(5, 0, -1):
+    for j in range(i, 0, -1):
+        print(j%2, end=" ")
+    print("")
+
+"""
+
+
+for i in range(5, 0, -1):
+    for j in range(i, 0, -1):
+        print(j%2, end=" ")
+    print("")
