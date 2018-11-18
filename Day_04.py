@@ -187,13 +187,11 @@ for i in range(0, 6):
 
 """
 
-#ctrl+shift+f to format the python script
+# ctrl+shift+f to format the python script
 
-sum = 2
+power_of = 1
 for i in range(0, 6):
+    power_of = power_of * 2
     for j in range(0, i + 1):
-        if (j == 0):
-            print("1", end=" ")
-        else:
-            print("0", end=" ")
-print("")
+        print(power_of, end=" ")
+    print("")
