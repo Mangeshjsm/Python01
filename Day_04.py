@@ -174,7 +174,7 @@ for i in range(5, 0, -1):
     print("")
 
 
-# for assignment no 12
+### for assignment no 12
 
 sum=2
 for i in range(0, 6):
@@ -189,6 +189,7 @@ for i in range(0, 6):
 
 # ctrl+shift+f to format the python script
 
+# for assignment no 12
 
 for i in range(0, 6):
     power_of = 1
