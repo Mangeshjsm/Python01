@@ -201,3 +201,13 @@ for i in range(0, 6):
 
 
 """
+
+# for assignment no 13
+
+for i in range(0, 5):
+    for j in range(0, 5):
+        if(j==0 or j==5 or (i==j and i > 0 or i <4) or (i==2 and j==5)):
+            print("*", end=" ")
+        else:
+            print("")
+    print("")
