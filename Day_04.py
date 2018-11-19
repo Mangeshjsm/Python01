@@ -195,5 +195,5 @@ for i in range(0, 6):
     power_of = power_of * 2
     for j in range(0, i + 1):
         print(power_of, end=" ")
-        power_of += 2
+        power_of *= 2
     print("")
