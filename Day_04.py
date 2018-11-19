@@ -185,7 +185,7 @@ for i in range(0, 6):
             print("0", end=" ")
     print("")
 
-"""
+
 
 # ctrl+shift+f to format the python script
 
@@ -197,3 +197,6 @@ for i in range(0, 6):
         print(power_of, end=" ")
         power_of *= 2
     print("")
+
+
+"""
