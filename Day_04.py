@@ -205,7 +205,7 @@ for i in range(0, 6):
         print(power_of, end=" ")
         power_of *= 2
     print("")
-    
+
 """
 """
 
